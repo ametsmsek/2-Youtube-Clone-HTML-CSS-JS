@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Clone</title>
+</head>
+<body>
+      <header class="header">
+        <div class="logo left">
+            <i id="menu" class="material-icons">menu</i>
+            <img class="youtube-logo" src="/Source/youtube-logo.svg">
+        </div>
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button class="search-btn"><i class="material-icons">search</i></button>
+            <div class="mic-circle">
+                <i class="material-icons mic">mic</i>
+            </div>
+        </div>
+        
+        <div class="right-box right">
+            <i class="material-icons right-search-item">search</i>
+            <i class="material-icons right-mic">mic</i>
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons display-this">account_circle</i>
+        </div>
+      </header>
+      <main>
+          <div class="side-bar">
+            <div class="nav">
+                <a class="nav-link active">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">explore</i>
+                    <span>Explore</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </a>             
+            </div>
+            <hr>
+            <div class="nav">
+                <a class="nav-link">
+                    <i class="material-icons">library_add</i>
+                    <span>Library</span>
+                </a> 
+                <a class="nav-link">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">slideshow</i>
+                    <span>Your Videos</span>
+                </a>   
+                   
+                <a class="nav-link">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </a>        
+                <a class="nav-link">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </a>  
+            </div>
+          </div>
+          <div class="filters">
+            <button class="filter-options active">all</button>
+            <button class="filter-options">CSS</button>
+            <button class="filter-options">web development</button>
+            <button class="filter-options">python</button>
+            <button class="filter-options">entertainment</button>
+            <button class="filter-options">marvel</button>
+            <button class="filter-options">javascript</button>
+            <button class="filter-options">artificial intelligence</button>
+            <button class="filter-options">machine learning</button>
+            <button class="filter-options">trending</button>
+          </div>
+          <div class="video-container">
+            <!-- <div class="video">
+                <img src="img/profile-pic.png" class="thumbnail" alt="">
+                <div class="content">
+                    <img src="img/profile-pic.png" class="channel-icon" alt="">
+                    <div class="info">
+                        <h4 class="title">youtube clone 2021 | create working youtube clone</h4>
+                        <p class="channel-name">modern web</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+      </main>
+  <!-- Main Body Ends -->
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
